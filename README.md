@@ -6,7 +6,7 @@ We examine five different models: n-grams (unigram, bigram, trigram), POSTagger-
 
 For the models using ngrams, we use three different features: term frequency, collection frequency and relative position of the first occurrence to find top keywords. 
 
-To run our model, download the repo into one directory and run KeyPhraseExtraction.java file. Unzip the TRAINING-DATASET.zip to get testing data. 
+To run our model, download every file in the repo into one directory and run KeyPhraseExtraction.java file. Unzip the TRAINING.zip to get training data. 
 
 Files ending with ".abstr" are documents used to train our models, while ".contr" contains the controlled manually assigned keywords, separated with semicolon and ".uncontr" contains the uncontrolled manually assigned keywords, separated with semicolon. 
 
