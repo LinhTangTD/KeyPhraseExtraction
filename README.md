@@ -12,7 +12,7 @@ To run our model, download every file in the repo into one directory and run Key
 
 Files ending with ".abstr" are documents used to train our models, while ".contr" contains the controlled manually assigned keywords, separated with semicolon and ".uncontr" contains the uncontrolled manually assigned keywords, separated with semicolon. 
 
-For POSTagger model, please download the basic English Stanford Tagger (http://nlp.stanford.edu/software/tagger.shtml) and add ".jar" files to your project build path or class path. 
+For POSTagger model, please download the basic [English Stanford Tagger] (http://nlp.stanford.edu/software/tagger.shtml) and add ".jar" files to your project build path or class path. 
 
 ### Testing & Evaluation
 To evaluate the performance, we compute the precision score of the top 5 keywords generated for each document in the Training Dataset and compare among 5 models. 
